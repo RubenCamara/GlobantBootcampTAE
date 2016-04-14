@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="14985" started-at="2016-04-08T21:43:24Z" finished-at="2016-04-08T21:43:39Z">
+  <suite name="Default suite" duration-ms="47028" started-at="2016-04-14T20:48:35Z" finished-at="2016-04-14T20:49:22Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="14985" started-at="2016-04-08T21:43:24Z" finished-at="2016-04-08T21:43:39Z">
+    <test name="Default test" duration-ms="47028" started-at="2016-04-14T20:48:35Z" finished-at="2016-04-14T20:49:22Z">
       <class name="paquete.Google">
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:paquete.Google@193948d]" name="beforeMethod" is-config="true" duration-ms="8143" started-at="2016-04-08T18:43:24Z" finished-at="2016-04-08T18:43:32Z">
+        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:paquete.Google@193948d]" name="beforeMethod" is-config="true" duration-ms="8141" started-at="2016-04-14T17:48:35Z" finished-at="2016-04-14T17:48:43Z">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="ejercicio3()[pri:0, instance:paquete.Google@193948d]" name="ejercicio3" duration-ms="6636" started-at="2016-04-08T18:43:32Z" description="Ejercicio3" finished-at="2016-04-08T18:43:39Z">
+        <test-method status="PASS" signature="ejercicio3()[pri:0, instance:paquete.Google@193948d]" name="ejercicio3" duration-ms="38633" started-at="2016-04-14T17:48:43Z" description="Ejercicio3" finished-at="2016-04-14T17:49:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ejercicio3 -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:paquete.Google@193948d]" name="afterMethod" is-config="true" duration-ms="175" started-at="2016-04-08T18:43:39Z" finished-at="2016-04-08T18:43:39Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestContext)[pri:0, instance:paquete.Google@193948d]" name="afterMethod" is-config="true" duration-ms="225" started-at="2016-04-14T17:49:22Z" finished-at="2016-04-14T17:49:22Z">
           <params>
             <param index="0">
               <value>

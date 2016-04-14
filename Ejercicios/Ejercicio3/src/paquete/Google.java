@@ -1,5 +1,6 @@
 package paquete;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -11,6 +12,8 @@ import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+
+
 
 public class Google {
 	private WebDriver driver;
@@ -42,7 +45,11 @@ public class Google {
 		WebElement Buscar = driver.findElement(By.xpath("//*[@class='lsb']"));
 		Buscar.click();
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
-		WebElement Result = driver.findElement(By.xpath("//*[@class='f kv _SWb']"));
+		//List<WebElement> Result = driver.findElements(By.xpath("//*[@class='f kv _SWb']"));
+		//List<WebElement> Result = driver.findElements(By.cssSelector(".kv"));
+		WebElement Result = driver.findElement(By.cssSelector(".g:nth-of-type(3) .kv"));
+
+		//String URLResult = Result.get(2).getText();
 		String URLResult = Result.getText();
 		driver.get(URLResult);
 		driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
