@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="124150" started-at="2016-05-02T21:00:27Z" finished-at="2016-05-02T21:02:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="124150" started-at="2016-05-02T21:00:27Z" finished-at="2016-05-02T21:02:32Z">
+      <class name="proyectofinal.Clase1">
+        <test-method status="PASS" signature="Logs()[pri:0, instance:proyectofinal.Clase1@12c2a62]" name="Logs" is-config="true" duration-ms="95" started-at="2016-05-02T18:00:27Z" finished-at="2016-05-02T18:00:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logs -->
+        <test-method status="PASS" signature="Log1(java.lang.String, java.lang.String)[pri:1, instance:proyectofinal.Clase1@12c2a62]" name="Log1" duration-ms="7515" started-at="2016-05-02T18:00:28Z" data-provider="Logeonro1" finished-at="2016-05-02T18:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rubencamara1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ruben1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log1 -->
+        <test-method status="PASS" signature="Logs()[pri:0, instance:proyectofinal.Clase1@12c2a62]" name="Logs" is-config="true" duration-ms="1256" started-at="2016-05-02T18:00:35Z" finished-at="2016-05-02T18:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logs -->
+        <test-method status="PASS" signature="EnviarMails(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:proyectofinal.Clase1@12c2a62]" name="EnviarMails" duration-ms="14623" started-at="2016-05-02T18:00:36Z" data-provider="EnviarMails" depends-on-methods="proyectofinal.Clase1.Log1" finished-at="2016-05-02T18:00:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rubencamara4321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asunto1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mensaje1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnviarMails -->
+        <test-method status="PASS" signature="Logs()[pri:0, instance:proyectofinal.Clase1@12c2a62]" name="Logs" is-config="true" duration-ms="20" started-at="2016-05-02T18:00:51Z" finished-at="2016-05-02T18:00:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logs -->
+        <test-method status="PASS" signature="EnviarMails(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:proyectofinal.Clase1@12c2a62]" name="EnviarMails" duration-ms="10167" started-at="2016-05-02T18:00:51Z" data-provider="EnviarMails" depends-on-methods="proyectofinal.Clase1.Log1" finished-at="2016-05-02T18:01:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rubencamara4321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asunto2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mensaje2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnviarMails -->
+        <test-method status="PASS" signature="Logs()[pri:0, instance:proyectofinal.Clase1@12c2a62]" name="Logs" is-config="true" duration-ms="20" started-at="2016-05-02T18:01:01Z" finished-at="2016-05-02T18:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logs -->
+        <test-method status="PASS" signature="EnviarMails(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:proyectofinal.Clase1@12c2a62]" name="EnviarMails" duration-ms="10569" started-at="2016-05-02T18:01:01Z" data-provider="EnviarMails" depends-on-methods="proyectofinal.Clase1.Log1" finished-at="2016-05-02T18:01:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rubencamara4321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Asunto3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mensaje3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnviarMails -->
+        <test-method status="PASS" signature="Logs()[pri:0, instance:proyectofinal.Clase1@12c2a62]" name="Logs" is-config="true" duration-ms="33" started-at="2016-05-02T18:01:12Z" finished-at="2016-05-02T18:01:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logs -->
+        <test-method status="PASS" signature="ComprobarMails(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:proyectofinal.Clase1@12c2a62]" name="ComprobarMails" duration-ms="33690" started-at="2016-05-02T18:01:12Z" data-provider="ComprobarMails" depends-on-methods="proyectofinal.Clase1.EnviarMails" finished-at="2016-05-02T18:01:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rubencamara4321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mensaje1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mensaje2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mensaje3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ComprobarMails -->
+        <test-method status="PASS" signature="Logs()[pri:0, instance:proyectofinal.Clase1@12c2a62]" name="Logs" is-config="true" duration-ms="26" started-at="2016-05-02T18:01:45Z" finished-at="2016-05-02T18:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logs -->
+        <test-method status="PASS" signature="Deslog()[pri:4, instance:proyectofinal.Clase1@12c2a62]" name="Deslog" duration-ms="632" started-at="2016-05-02T18:01:46Z" depends-on-methods="proyectofinal.Clase1.ComprobarMails" finished-at="2016-05-02T18:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Deslog -->
+        <test-method status="PASS" signature="Logs()[pri:0, instance:proyectofinal.Clase1@12c2a62]" name="Logs" is-config="true" duration-ms="2761" started-at="2016-05-02T18:01:46Z" finished-at="2016-05-02T18:01:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logs -->
+        <test-method status="PASS" signature="Log2(java.lang.String, java.lang.String)[pri:5, instance:proyectofinal.Clase1@12c2a62]" name="Log2" duration-ms="4876" started-at="2016-05-02T18:01:49Z" data-provider="Logeonro2" depends-on-methods="proyectofinal.Clase1.Deslog" finished-at="2016-05-02T18:01:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rubencamara4321@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ruben1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log2 -->
+        <test-method status="PASS" signature="Logs()[pri:0, instance:proyectofinal.Clase1@12c2a62]" name="Logs" is-config="true" duration-ms="1023" started-at="2016-05-02T18:01:54Z" finished-at="2016-05-02T18:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logs -->
+        <test-method status="PASS" signature="Verificar(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:6, instance:proyectofinal.Clase1@12c2a62]" name="Verificar" duration-ms="36739" started-at="2016-05-02T18:01:55Z" data-provider="MailsRecibidos" depends-on-methods="proyectofinal.Clase1.Log2" finished-at="2016-05-02T18:02:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rubencamara1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mensaje1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Mensaje2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Mensaje3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verificar -->
+      </class> <!-- proyectofinal.Clase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
